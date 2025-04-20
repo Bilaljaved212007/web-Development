@@ -1,0 +1,148 @@
+body {
+    margin: 20;
+    padding-bottom: 200px;
+}
+header {
+    background-color: rgb(14, 110, 255);
+    text-align: center;
+    padding: 4px;
+    padding-bottom: 20px;
+    padding-top: -5px;
+    padding-left: 10px;
+}
+
+header h1 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: rgb(251, 249, 249);
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+main 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section
+{
+    margin-bottom: 80px;
+    width: 65%;
+    padding-right: 20px;
+    padding-left: -200px;
+}
+
+section h2 
+{
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+    margin-top: -8px;
+}
+
+section p
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+section img
+{
+    width: 900px;
+    height: 46%;
+    margin-top: -10px;
+    
+    
+}
+
+aside 
+{
+
+   
+    width: auto;
+    height: 350px;
+    background-color: #2c63f9;
+    color: rgb(245, 242, 242);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-right: -20px;
+}
+
+aside h2 
+{
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: -8px;
+}
+
+aside ul 
+{
+    padding-left: 10px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+aside li
+{
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+aside img
+{
+    width: 48%;
+    margin: 5px 1%;
+    display: inline-block;
+    float: left;
+    margin-top: 45px;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.row img
+{
+    width: 48%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: rgb(92, 156, 252);
+    text-align: center;
+    color: white;
+    margin-top: -255px;
+}

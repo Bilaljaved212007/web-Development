@@ -1,0 +1,22 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #161316; /* Light background color */
+}
+
+.video-container {
+    text-align: center; /* Center the video container */
+}
+
+video {
+    max-width: 100%; /* Responsive video */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #c0392b; /* Optional: border around the video */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+

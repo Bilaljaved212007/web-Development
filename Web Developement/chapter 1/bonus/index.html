@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick Reference</title>
+    <link rel="stylesheet" href="styles.css2">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS</h1>
+        <p></p>
+    </header>
+    
+    <section>
+        <h2>HTML Tags</h2>
+        <article>
+            <h3>Headings (&lt;h1&gt; - &lt;h6&gt;)</h3>
+            <p>Headings help organize your webpage. &lt;h1&gt; is the biggest, &lt;h6&gt; is the smallest.</p>
+            <pre><code>&lt;h1&gt;This is a big heading&lt;/h1&gt;
+&lt;h2&gt;This is a smaller heading&lt;/h2&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Paragraph (&lt;p&gt;)</h3>
+            <p>Use this tag to write regular text.</p>
+            <pre><code>&lt;p&gt;This is a simple paragraph of text.&lt;/p&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Links (&lt;a&gt;)</h3>
+            <p>Want to create a clickable link? Use this tag!</p>
+            <pre><code>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Images (&lt;img&gt;)</h3>
+            <p>Use this tag to display an image on your webpage.</p>
+            <pre><code>&lt;img src="image.jpg" alt="A description of the image"&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Lists (&lt;ul&gt; and &lt;ol&gt;)</h3>
+            <p>Want to create a list? Use &lt;ul&gt; for bullet points and &lt;ol&gt; for numbered lists.</p>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Tables (&lt;table&gt;)</h3>
+            <p>Tables help organize data in rows and columns.</p>
+            <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Forms (&lt;form&gt;)</h3>
+            <p>Forms allow users to input data.</p>
+            <pre><code>&lt;form&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Div (&lt;div&gt;)</h3>
+            <p>The &lt;div&gt; tag is used to group elements together for styling.</p>
+            <pre><code>&lt;div class="container"&gt;
+    &lt;p&gt;This is inside a div&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </article>
+        
+        <article>
+            <h3>Span (&lt;span&gt;)</h3>
+            <p>The &lt;span&gt; tag is used to style part of a text.</p>
+            <pre><code>&lt;p&gt;This is a &lt;span style="color:red;"&gt;red&lt;/span&gt; word.&lt;/p&gt;</code></pre>
+        </article>
+    </section>
+    
+    <section>
+        <h2>CSS Properties</h2>
+        <article>
+            <h3>Text Color (color)</h3>
+            <p>Change the color of your text.</p>
+            <pre><code>p {
+    color: blue;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Background Color (background-color)</h3>
+            <p>Change the background color of your webpage or elements.</p>
+            <pre><code>body {
+    background-color: lightgray;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Font Size (font-size)</h3>
+            <p>Adjust how big or small your text appears.</p>
+            <pre><code>h1 {
+    font-size: 32px;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Spacing Around Elements (margin)</h3>
+            <p>Margin creates space outside an element to separate it from others.</p>
+            <pre><code>div {
+    margin: 20px;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Padding (padding)</h3>
+            <p>Padding adds space inside an element.</p>
+            <pre><code>div {
+    padding: 10px;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Border (border)</h3>
+            <p>Adds a border around an element.</p>
+            <pre><code>div {
+    border: 2px solid black;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Text Alignment (text-align)</h3>
+            <p>Aligns text inside an element.</p>
+            <pre><code>p {
+    text-align: center;
+}</code></pre>
+        </article>
+        
+        <article>
+            <h3>Width and Height</h3>
+            <p>Defines the size of an element.</p>
+            <pre><code>div {
+    width: 200px;
+    height: 100px;
+}</code></pre>
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1f2b; /* Dark steel gray */
+    color: #e6e6e6; /* Light silver for text */
+}
+
+/* Title Styling (h1 at the top) */
+h1 {
+    background-color: #002266; /* Deep Superman blue */
+    color: #cc0000; /* Vibrant Superman red */
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 4px solid #cc0000; /* Red accent border */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* Navigation Bar (directly below h1) */
+nav {
+    background-color: #333333; /* Metallic dark gray */
+    padding: 12px;
+    text-align: center;
+    border-bottom: 3px solid #002266; /* Blue accent */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #e6e6e6; /* Silver text */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav ul li a:hover {
+    color: #cc0000; /* Superman red on hover */
+}
+
+/* Section Styling */
+section {
+    margin: 30px;
+    padding: 25px;
+    background-color: #262626; /* Darker metallic gray */
+    border: 3px solid #002266; /* Deep blue border */
+    border-radius: 10px;
+    box-shadow: 0 0 12px #000000; /* Subtle shadow for depth */
+}
+
+/* Subheading Styling */
+h2 {
+    color: #cc0000; /* Superman red */
+    font-size: 26px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #002266; /* Blue accent */
+    padding-bottom: 5px;
+}
+
+/* Button Styling */
+.button-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #002266; /* Deep Superman blue */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #cc0000; /* Red border */
+}
+
+.button:hover {
+    background-color: #cc0000; /* Red on hover */
+    color: #ffffff;
+    border: 2px solid #002266; /* Blue border on hover */
+}
+
+/* Paragraph Styling for Readability */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #e6e6e6; /* Silver text */
+    margin-bottom: 20px;
+}

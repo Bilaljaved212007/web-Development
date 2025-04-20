@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9fafb; /* Light background for better readability */
+  color: #333; /* Default text color */
+}
+
+h1, h2, h3 {
+  color: #0078d7; /* Blue color for headings */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0078d7; /* Underline for emphasis */
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #0056a3; /* Slightly darker blue for subheadings */
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #003d73; /* Even darker blue for smaller headings */
+}
+
+p {
+  margin-bottom: 15px;
+  color: #555; /* Softer gray for paragraph text */
+}
+
+code {
+  background-color: #f4f4f4; /* Light gray background for code */
+  color: #d63384; /* Pinkish color for code text */
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+pre {
+  background-color: #f4f4f4; /* Matches code background */
+  color: #333; /* Default text color for preformatted text */
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for the container */
+  border: 1px solid #e0e0e0; /* Light border for definition */
+}
+
+/* Additional Styling for Links */
+a {
+  color: #0078d7; /* Matches heading color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056a3; /* Darker blue on hover */
+}
+  
+  

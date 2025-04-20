@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(14, 14, 14);
+    text-align: center;
+}
+
+h1 {
+    color: #702ead;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.image-container {
+    background-color:rgb(7, 7, 7);
+    border: 1px solid #702ead;
+    border-radius: 200px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(242, 238, 238, 0.957);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.9) contrast(1.1);
+    transition: filter 0.3s;
+}
+
+img:hover {
+    filter: brightness(1) contrast(1);
+}
+
+p {
+    padding:80px;
+    font-size: 22px;
+    color: #702ead;
+}
+  
+.img-filter-1 {
+    filter: grayscale(50%) brightness(0.9);
+}
+
+.img-filter-2 {
+    filter: sepia(30%) contrast(1.2);
+}
+
+.img-filter-3 {
+    filter: hue-rotate(45deg) saturate(1.2);
+}
+
+img:hover {
+    filter: none; /* remove filter on hover for all */
+}
